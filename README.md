@@ -1,1 +1,1 @@
-# ini project baru
+# Python basic
