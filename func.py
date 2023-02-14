@@ -23,3 +23,7 @@ def hello_global():
     print(f"Hello {name}")
 
 hello_global()
+
+# lambda
+sayHello = lambda world : "hello " + world
+print(sayHello("World"))
