@@ -36,3 +36,14 @@ a = 1
 b = a
 print("Check boolean", 0 == 0.0, 0 != 0.0, a is b)
 
+adict = {
+  "brand": 1,
+  "model": 0,
+  "year": 1964,
+}
+
+import re
+
+s = 'A message from csev@umich.edu to cwen@iupui.edu about meeting @2PM'
+lst = re.findall('\\S+@\\S+', s)
+print(lst)
