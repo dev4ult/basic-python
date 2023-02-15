@@ -1,3 +1,10 @@
+# casting
+strtoint = int("123")
+inttofloat = float(123)
+floattostr = str(12.3)
+
+print("casting : ", strtoint, " ", inttofloat, " ", floattostr)
+
 
 # type
 temp = "5 degrees"

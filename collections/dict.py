@@ -17,7 +17,24 @@ print("values : ", adict.values()) # values
 
 print("items : ", adict.items()) # items
 
-# new data 
+brand = adict.get("brand") # | brand = adict["brand"]
+print("brand : ", brand)
+
+# adding
 
 adict["seat"] = 4
+print("added 'seat' key : ", adict)
+
+adict.update({"price": 123456})
+print("updated 'price' key : ", adict)
+
+# removing
+
+adict.pop("price") # removing price from dictionary
+print(adict)
+
+adict.popitem() # removing last item from dictionary
+print(adict)
+
+del adict['brand']
 print(adict)
